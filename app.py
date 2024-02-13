@@ -34,7 +34,8 @@ def date_to_day(year, month, date):
     return day
 
 def show_predict_page():
-    
+    img = Image.open(src="https://imgur.com/a/yLEVNoZ")
+    st.image(img, caption="**Traffic at Junctions**", width=1200, channels="RGB")
 
     # Markdown Settings
     st.markdown(
