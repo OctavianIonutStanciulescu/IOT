@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import datetime
 import calendar
-import lightgbm
+
 
 def load_model():
     with open('junction_model_1.pkl', 'rb') as f1:
